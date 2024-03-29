@@ -1,0 +1,17 @@
+1.conda install -c conda-forge face-recognition  
+
+2.conda install -c conda-forge imutils
+
+3.conda install -c conda-forge opencv
+
+4.conda install -c anaconda requests
+
+
+pi_face_recognition
+--cascade haarcascade_frontalface_default.xml  --encodings encodings.pickle
+
+face_record
+--cascade haarcascade_frontalface_default.xml  --output dataset/Criminal_Detected
+
+encode_faces
+--dataset dataset --encodings encodings.pickle    --detection-method hog
