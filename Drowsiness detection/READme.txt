@@ -1,4 +1,4 @@
-# Real-Time Drowsiness Detection
+** Real-Time Drowsiness Detection
 
 This project performs real-time drowsiness detection using facial landmark detection with dlib and OpenCV. It calculates the eye aspect ratio (EAR) to detect eye closure indicative of drowsiness. When drowsiness is detected, it triggers an alert to notify the user.
 
